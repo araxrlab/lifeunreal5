@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TPSProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TPSProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TPSProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TPSProject">
+      <UniqueIdentifier>{A23A3CB7-17DE-308B-B0DA-2D4D2D4EB3F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TPSProject\TPSProject.Build.cs">
+      <Filter>Source\TPSProject</Filter>
+    </None>
+    <Filter Include="Source\TPSProject\private">
+      <UniqueIdentifier>{F2BBD063-EC9E-3AEE-AB39-F88568F04848}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TPSProject\private\Bullet.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\Enemy.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\EnemyAnim.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\EnemyFSM.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\EnemyManager.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\PlayerAnim.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\PlayerBaseComponent.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\PlayerFire.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\PlayerMove.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\TPSPlayer.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\TPSProject.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TPSProject\private\TPSProjectGameModeBase.cpp">
+      <Filter>Source\TPSProject\private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TPSProject\public">
+      <UniqueIdentifier>{68A94EF8-D612-391B-AA07-FA4C4DBF9FA4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TPSProject\public\Bullet.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\Enemy.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\EnemyAnim.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\EnemyFSM.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\EnemyManager.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\PlayerAnim.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\PlayerBaseComponent.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\PlayerFire.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\PlayerMove.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\TPSPlayer.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\TPSProject.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TPSProject\public\TPSProjectGameModeBase.h">
+      <Filter>Source\TPSProject\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
